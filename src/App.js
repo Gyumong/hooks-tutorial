@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Info from './Info';
+import Average from './Average';
 import './App.css';
 
 function App() {
@@ -14,7 +14,7 @@ return(
 {visible? '숨기기' : '보이기'}
 </button>
 <hr />
-{visible && <Info />}
+{visible && <Average />}
   </div>
 );
 };
